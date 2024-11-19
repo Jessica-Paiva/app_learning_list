@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".activities.MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="72dp"
+        android:src="@drawable/logo_learning_list" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:textColor="#4D76AC"
+        android:text="@string/texto_front"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="348dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="#252561"
+        android:text="@string/ir_para_trilha_kotlin"
+        android:background="@drawable/rounded_button"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="348dp"
+        android:layout_height="48dp"
+        android:background="@drawable/rounded_button"
+        android:backgroundTint="#4D76AC"
+        android:textColor="#ffffff"
+        android:text="@string/minha_lista" />
+
+</LinearLayout>

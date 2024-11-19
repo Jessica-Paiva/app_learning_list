@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">LearningList</string>
+    <string name="topic">topic</string>
+    <string name="trilha_de_html">TRILHA KOTLIN</string>
+    <string name="ir_para_a_trilha_kotlin">IR PARA A TRILHA KOTLIN</string>
+    <string name="ir_para_trilha_kotlin">IR PARA A  LISTA DE ESTUDOS KOTLIN</string>
+    <string name="texto_front">ORGANIZE SEUS ESTUDOS!</string>
+    <string name="minha_lista">ACESSAR MINHA LISTA</string>
+    <string name="add_topic">ADICIONAR TÓPICO</string>
+    <string name="visualizar_minha_trilha">VISUALIZAR MINHA TRILHA</string>
+    <string name="id">ID</string>
+    <string name="atualizar">ATUALIZAR</string>
+    <string name="remover">REMOVER</string>
+    <string name="title_insert_topic">ADICIONAR TÓPICO PARA ESTUDAR</string>
+    <string name="editar_ou_remover_topico">EDITAR OU REMOVER TÓPICO</string>
+    <string name="txtTitle">MINHA LISTA DE ESTUDOS</string>
+    <string name="txtsubTitle">Clique em um item para edita-lo ou removê-lo</string>
+
+    <string-array name="array_topics_names">
+    <item>O que é um algoritmo?</item>
+    <item>Diferença entre algoritmo e programa</item>
+    <item>Estruturas de controle (sequência, seleção e repetição)</item>
+    <item>Eficiência de algoritmos (tempo e espaço)</item>
+    <item>Arrays</item>
+    <item>Listas ligadas</item>
+    <item>Pilhas (Stacks)</item>
+    <item>Filas (Queues)</item>
+    <item>Conjuntos (Sets)</item>
+    <item>Mapas/Dicionários (Hash Tables)</item>
+    <item>Árvores (Trees) e Árvores binárias</item>
+    <item>Grafos (Graphs)</item>
+    <item>Busca Linear</item>
+    <item>Busca Binária</item>
+    <item>Bubble Sort</item>
+    <item>Selection Sort</item>
+    <item>Insertion Sort</item>
+    <item>Merge Sort</item>
+    <item>Quick Sort</item>
+    <item>Divisão e conquista (Divide and Conquer)</item>
+    <item>Recursão direta e indireta</item>
+    <item>Busca em profundidade (DFS)</item>
+    <item>Busca em largura (BFS)</item>
+    <item>Algoritmo de Dijkstra</item>
+    <item>Algoritmo de Kruskal</item>
+    <item>Algoritmo de Prim</item>
+    <item>Caminho mínimo (Bellman-Ford)</item>
+    <item>Notação Big O (complexidade de tempo e espaço)</item>
+    <item>Comparação de algoritmos (pior caso, melhor caso e caso médio)</item>
+    <item>Algoritmos polinomiais e não polinomiais</item>
+    <item>Algoritmos NP-completos</item>
+</string-array>
+</resources>

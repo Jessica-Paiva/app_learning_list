@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:gravity="center_horizontal">
+
+    <!-- ImageView com a imagem -->
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="208dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:src="@drawable/edit_topic" />
+
+    <!-- TextView de título -->
+    <TextView
+        android:id="@+id/txtUpdActTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/editar_ou_remover_topico"
+        android:textColor="#4D76AC"
+        android:textSize="24sp"
+        android:layout_marginBottom="20dp" />
+
+    <!-- EditText para digitar o título -->
+    <EditText
+        android:id="@+id/edtUpdActTitle"
+        android:layout_width="318dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="9dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginBottom="20dp"
+        android:hint="Escreva aqui o tópico desejado"
+        android:inputType="text"
+        android:layout_gravity="center" />
+
+    <!-- Botão "Atualizar" -->
+    <Button
+        android:id="@+id/btnUpdActUpdate"
+        android:layout_width="318dp"
+        android:layout_height="48dp"
+        android:background="@drawable/rounded_button"
+        android:backgroundTint="#252561"
+        android:text="@string/atualizar"
+        android:textColor="#ffffff"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Botão "Remover" -->
+    <Button
+        android:id="@+id/btnUpdActDelete"
+        android:layout_width="318dp"
+        android:layout_height="48dp"
+        android:background="@drawable/rounded_button"
+        android:backgroundTint="#4D76AC"
+        android:text="@string/remover"
+        android:textColor="#ffffff"
+        android:layout_marginBottom="10dp"/>
+
+    <!-- Botão "Voltar" -->
+
+</LinearLayout>
